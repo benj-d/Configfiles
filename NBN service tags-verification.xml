@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NBNExport>
+  <NBNDataset Name="Merseyside BioBank Active Naturalists (verified)" VType="verified" gatewayId="">
+    <DatasetTags>
+      <DatasetTag>MBAN</DatasetTag>
+    </DatasetTags>
+    <Metadata>
+      <Abstract>
+        <Description>This dataset pulls together many of the records supplied to Merseyside BioBank by members of our associated recorders' group, Merseyside BioBank Active Naturalists. The records cover a range of taxonomic groups. All of the records in this dataset have been subjected to formal verification.</Description>
+      </Abstract>
+    </Metadata>
+  </NBNDataset>
+  <NBNDataset Name="Merseyside BioBank Active Naturalists (unverified)" VType="unverified" gatewayId="">
+    <DatasetTags>
+      <DatasetTag>MBAN</DatasetTag>
+    </DatasetTags>
+    <Metadata>
+      <Abstract>
+        <Description>This dataset pulls together many of the records supplied to Merseyside BioBank by members of our associated recorders' group, Merseyside BioBank Active Naturalists. The records cover a range of taxonomic groups. None of the records in this dataset have yet been subjected to formal verification.</Description>
+      </Abstract>
+    </Metadata>
+  </NBNDataset>
+  <NBNDataset Name="Merseyside BioBank (verified)" VType="verified" gatewayId="">
+    <DatasetTags>
+      <DatasetTag>All</DatasetTag>
+    </DatasetTags>
+    <Metadata>
+      <Abstract>
+        <Description>This dataset comprises most of the verified records held my Merseyside BioBank which we can currently make available. Note that records included in the Merseyside BioBank Active Naturalists dataset are not duplicated here. All of the records in this dataset have been subjected to formal verification.</Description>
+      </Abstract>
+    </Metadata>
+  </NBNDataset>
+  <NBNDataset Name="Merseyside BioBank (unverified)" VType="unverified" gatewayId="">
+    <DatasetTags>
+      <DatasetTag>All</DatasetTag>
+    </DatasetTags>
+    <Metadata>
+      <Abstract>
+        <Description>This dataset comprises most of the unverified records held my Merseyside BioBank which we can currently make available. Note that records included in the Merseyside BioBank Active Naturalists dataset are not duplicated here. None of the records in this dataset have yet been subjected to formal verification.</Description>
+      </Abstract>
+    </Metadata>
+  </NBNDataset>
+  <MetadataDefaults>
+    <exchangeFormatVersion>2.4</exchangeFormatVersion>
+    <Abstract>
+      <DataCaptureMethod>Most of these records were provided by data-suppliers in electronic formats – mostly spreadsheets – which we manipulated and then imported to Recorder 6 via the import tool. Others were captured by Merseyside BioBank staff and volunteers from a variety of paper sources.</DataCaptureMethod>
+      <Purpose>Records were collected for a variety of reasons and are sourced from a number of different surveys. Many are the results of casual recording but also include structured surveilance and monitoring.</Purpose>
+      <GeographicCoverage>These records are from all parts of North Merseyside (Sefton, St Helens, Knowsley and Liverpool) only.</GeographicCoverage>
+      <TemporalCoverage>The records were collected at various times. The majority of records are provided with full dates (DD/MM/YYYY).</TemporalCoverage>
+      <DatasetConfidence VType="all">Confidence in this dataset is moderately high. Some of these records may not have undergone formal verification and some records in this dataset may be excluded after formal verification.</DatasetConfidence>
+      <DatasetConfidence VType="verified">Confidence in this dataset is high. All records in this dataset have been through a formal process of verification by a local expert.</DatasetConfidence>
+      <DatasetConfidence VType="unverified">Confidence in this dataset is moderate. The records in this dataset have not yet been subject to formal verification. Once they have been, those records which do not pass verification will be removed.</DatasetConfidence>
+      <AdditionalInformation>To protect people's privacy where full addresses have been used as location names, we replace all digits in location names with the hash character, #. This is sometimes inconvenient, but is a necessary precaution.</AdditionalInformation>
+    </Abstract>
+    <AccessConstraints>Public access to this dataset is restricted to 2 km to protect the relationships of trust between Merseyside BioBank and our data providers and the business model of the Local Record Centre. The original providers of the records are not under any legal obligation to supply the information to the public through the NBN Gateway and have not consented to its wider release. Wider release could adversely affect the free flow of volunteered information from third parties for use by those that need to know for land use planning and conservation. Wider release could adversely affect financial support required to sustain the administration of volunteered recording activities, the collation of volunteered wildlife records and their continued management. The information may be made available under licence to approved individuals and organisations (see www.merseysidebiobank.org.uk).</AccessConstraints>
+    <UseConstraints />
+    <Other>
+      <Name>Ben Deed</Name>
+      <Telephone>0151 7374150</Telephone>
+      <Email>info@MerseysideBioBank.org.uk</Email>
+      <PublicResolution>2 km</PublicResolution>
+      <Download>Yes</Download>
+      <AccessConstraintStatement>General access to this dataset is restricted to 2km to protect the relationships of trust between Merseyside BioBank and our data providers and the business model of the Local Record Centre. The original providers of the records are not under any legal obligation to supply the information to the public through the NBN Gateway and have not consented to its wider release. Wider release could adversely affect the free flow of volunteered information from third parties for use by those that need to know for land use planning and conservation. Wider release could adversely affect financial support required to sustain the administration of volunteered recording activities, the collation of volunteered wildlife records and their continued management. The information may be made available under licence to approved individuals and organisations (see www.merseysidebiobank.org.uk).</AccessConstraintStatement>
+    </Other>
+  </MetadataDefaults>
+</NBNExport>

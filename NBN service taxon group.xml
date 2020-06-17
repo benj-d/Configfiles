@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NBNExport>
+  <NBNDataset Name="RECORD Birds" VType="all" gatewayId="">
+    <TaxonGroups>
+      <TaxonGroup>bird</TaxonGroup>
+    </TaxonGroups>
+    <Metadata>
+      <Abstract>
+        <Description>This dataset contains all records relating to the dataset taxon group held by RECORD. Includes both verified and unverified records.</Description>
+      </Abstract>
+    </Metadata>
+  </NBNDataset>
+  <NBNDataset Name="RECORD Mammals" VType="all" gatewayId="">
+    <TaxonGroups>
+      <TaxonGroup>marine mammal</TaxonGroup>
+      <TaxonGroup>terrestrial mammal</TaxonGroup>
+    </TaxonGroups>
+    <Metadata>
+      <Abstract>
+        <Description>This dataset contains all records relating to the dataset taxon group held by RECORD. Includes both verified and unverified records.</Description>
+      </Abstract>
+    </Metadata>
+  </NBNDataset>
+  <NBNDataset Name="RECORD Reptiles and Amphibians" VType="all" gatewayId="">
+    <TaxonGroups>
+      <TaxonGroup>amphibian</TaxonGroup>
+      <TaxonGroup>reptile</TaxonGroup>
+    </TaxonGroups>
+    <Metadata>
+      <Abstract>
+        <Description>This dataset contains all records relating to the dataset taxon group held by RECORD. Includes both verified and unverified records.</Description>
+      </Abstract>
+    </Metadata>
+  </NBNDataset>
+  <NBNDataset Name="RECORD Insects" VType="all" gatewayId="">
+    <TaxonGroups>
+      <TaxonGroup partialMatch="true">insect - </TaxonGroup>
+    </TaxonGroups>
+    <Metadata>
+      <Abstract>
+        <Description>This dataset contains all records relating to the dataset taxon group held by RECORD. Includes both verified and unverified records.</Description>
+      </Abstract>
+    </Metadata>
+  </NBNDataset>
+  <NBNDataset Name="RECORD Fish" VType="all" gatewayId="">
+    <TaxonGroups>
+      <TaxonGroup partialMatch="true">fish (</TaxonGroup>
+    </TaxonGroups>
+    <Metadata>
+      <Abstract>
+        <Description>This dataset contains all records relating to the dataset taxon group held by RECORD. Includes both verified and unverified records.</Description>
+      </Abstract>
+    </Metadata>
+  </NBNDataset>
+  <NBNDataset Name="RECORD Flowering Plants" VType="all" gatewayId="">
+    <TaxonGroups>
+      <TaxonGroup>flowering plant</TaxonGroup>
+    </TaxonGroups>
+    <Metadata>
+      <Abstract>
+        <Description>This dataset contains all records relating to the dataset taxon group held by RECORD. Includes both verified and unverified records.</Description>
+      </Abstract>
+    </Metadata>
+  </NBNDataset>
+  <NBNDataset Name="RECORD Other Taxa" VType="all" AllRemaining="true" gatewayId="">
+    <Metadata>
+      <Abstract>
+        <Description>This dataset contains all records relating to the dataset taxon group held by RECORD. Includes both verified and unverified records.</Description>
+      </Abstract>
+    </Metadata>
+  </NBNDataset>
+  <MetadataDefaults>
+    <exchangeFormatVersion>2.4</exchangeFormatVersion>
+    <Abstract>
+      <DataCaptureMethod>Most of these records were provided by data-suppliers in electronic formats – mostly spreadsheets – which we manipulated and then imported to Recorder 6 via the import tool. Others were captured by RECORD staff and volunteers from a variety of paper sources.</DataCaptureMethod>
+      <Purpose>Records were collected for a variety of reasons and are sourced from a number of different surveys. Many are the results of casual recording.</Purpose>
+      <GeographicCoverage>These records are from all parts of RECORD (Sefton, St Helens, Knowsley and Liverpool).</GeographicCoverage>
+      <TemporalCoverage>The records were collected at various times. The majority of records are provided with full dates (DD/MM/YYYY).</TemporalCoverage>
+      <DatasetConfidence VType="all">Confidence in this dataset is moderately high. Some of these records may not have undergone formal verification and some records in this dataset may be excluded after formal verification.</DatasetConfidence>
+      <DatasetConfidence VType="verified">Confidence in this dataset is high. All records in this dataset have been through a formal process of verification by a local expert.</DatasetConfidence>
+      <DatasetConfidence VType="unverified">Confidence in this dataset is moderate. The records in this dataset have not yet been subject to formal verification. Once they have been, those records which do not pass verification will be removed.</DatasetConfidence>
+      <AdditionalInformation>To protect people's privacy where full addresses have been used as location names, we replace all digits in location names with the hash character, #. This is sometimes inconvenient, but is a necessary precaution.</AdditionalInformation>
+    </Abstract>
+    <AccessConstraints>Public access to this dataset is restricted to 2 km to protect the relationships of trust between RECORD and our data providers and the business model of the Local Record Centre. The original providers of the records are not under any legal obligation to supply the information to the public through the NBN Gateway and have not consented to its wider release. Wider release could adversely affect the free flow of volunteered information from third parties for use by those that need to know for land use planning and conservation. Wider release could adversely affect financial support required to sustain the administration of volunteered recording activities, the collation of volunteered wildlife records and their continued management. The information may be made available under licence to approved individuals and organisations (see www.merseysidebiobank.org.uk).</AccessConstraints>
+    <UseConstraints />
+    <Other>
+      <Name></Name>
+      <Telephone></Telephone>
+      <Email></Email>
+      <PublicResolution>2 km</PublicResolution>
+      <Download>Yes</Download>
+      <AccessConstraintStatement>General access to this dataset is restricted to 2km to protect the relationships of trust between RECORD and our data providers and the business model of the Local Record Centre. The original providers of the records are not under any legal obligation to supply the information to the public through the NBN Gateway and have not consented to its wider release. Wider release could adversely affect the free flow of volunteered information from third parties for use by those that need to know for land use planning and conservation. Wider release could adversely affect financial support required to sustain the administration of volunteered recording activities, the collation of volunteered wildlife records and their continued management. The information may be made available under licence to approved individuals and organisations (see www.merseysidebiobank.org.uk).</AccessConstraintStatement>
+    </Other>
+  </MetadataDefaults>
+</NBNExport>
